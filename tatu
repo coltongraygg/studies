@@ -1,0 +1,17 @@
+[33mcommit 1fa6d09fc208e3462dbd9a5ade8f5f416f2eb066[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: coltongraygg <163790834+coltongraygg@users.noreply.github.com>
+Date:   Wed Aug 7 20:05:59 2024 +0000
+
+    Added forEach, map, and filter review file
+
+[33mcommit 4071b61947359fccbaf1b2a2d4a5406bd01a2756[m
+Author: coltongraygg <163790834+coltongraygg@users.noreply.github.com>
+Date:   Tue Jul 23 18:41:32 2024 +0000
+
+    Just created
+
+[33mcommit 5e3fb234e903094de8457c7cf1ec53d1f164e581[m
+Author: coltongraygg <163790834+coltongraygg@users.noreply.github.com>
+Date:   Tue Jul 23 13:34:50 2024 -0500
+
+    Initial commit
