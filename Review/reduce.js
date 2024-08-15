@@ -153,8 +153,15 @@ const patients = [
   }, 0)
   
   
-  
-  
+  let patientsOver402 = patients.reduce((acc, current) => {
+    if (current.age > 40) {
+      acc += 1;
+    }
+    return acc;
+  }, 0)
+
+  console.log(patientsOver402); // 3
+  console.log(patientsOver40); // 3
   
   
   function reduce(array, func, seed){
@@ -264,9 +271,17 @@ const patients = [
 
   }, {});
 
+  let patientGenders2 = patients.reduce((acc, current) => {
+    if (acc.hasOwnProperty(current.gender)) {
+      acc[current.gender]++;
+    } else {
+      acc[current.gender] = 1;
+    }
+    return acc;
+  }, {})
   
-  
-  
+  console.log(patientGenders); // { male: 2, female: 2, 'non-binary': 1 }
+  console.log(patientGenders2);// { male: 2, female: 2, 'non-binary': 1 }
   
   /////////////////////// PROBLEM #5 ///////////////////////////
   /*
